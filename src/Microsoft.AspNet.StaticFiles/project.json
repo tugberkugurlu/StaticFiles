@@ -1,13 +1,19 @@
 {
-    "version": "1.0.0-*",
-    "description": "ASP.NET 5 static files middleware.",
-    "dependencies": {
-        "Microsoft.AspNet.Hosting": { "version": "1.0.0-*", "type": "build" },
-        "Microsoft.AspNet.Http.Extensions": "1.0.0-*",
-        "Microsoft.AspNet.Http.Interfaces": { "version": "1.0.0-*", "type": "build" }
+  "version": "1.0.0-beta3",
+  "description": "ASP.NET 5 static files middleware.",
+  "dependencies": {
+    "Microsoft.AspNet.Hosting": {
+      "version": "1.0.0-beta3",
+      "type": "build"
     },
-    "frameworks": {
-        "aspnet50": { },
-        "aspnetcore50": { }
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-beta3",
+    "Microsoft.AspNet.Http.Interfaces": {
+      "version": "1.0.0-beta3",
+      "type": "build"
     }
+  },
+  "frameworks": {
+    "aspnet50": {},
+    "aspnetcore50": {}
+  }
 }
